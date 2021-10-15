@@ -1,0 +1,8 @@
+${name}
+<#list list as l>
+  <#if l.id = 0>
+   第一个
+  </#if>
+  ${l.id}
+  ${l.name}
+</#list>
